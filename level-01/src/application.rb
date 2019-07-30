@@ -4,6 +4,10 @@
 class Application
   # attr_accessor :departments
 
+  def method_that_magically_makes_things_work
+    "nope"
+  end
+
   def initialize
     # self.departments = ['EEE', 'MECH', 'CSE', 'CIVIL'].each { |dept| Department.new dept }
   end
